@@ -4,13 +4,21 @@
   3. Structure Styles
   4. Module Styles
   5. Component Styles
-	6. Page Styles
-	7. Media Queries
+  6. Page Styles
+  7. Media Queries
 ======================================== */
 
 /* 1. Global Styles
 ======================================== */
-
+* {
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --orange: #FCAE4A;
+    --blue: #549EF2;
+    --slate: #4D4F62;
+    --font-family: Poppins;
+    --font-size: 16px;
+}
 
 /* 2. Typography Styles
 ======================================== */
