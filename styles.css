@@ -18,11 +18,50 @@
     --slate: #4D4F62;
     --font-family: Poppins;
     --font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 /* 2. Typography Styles
 ======================================== */
+h1, h2, h3, p {
+    font-family: var(--font-family);
+    color: var(--slate);
+}
 
+h1, h3 {
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-size: 2.25em;
+    letter-spacing: 0.015625em;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h1, h2, .opener {
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.8125em;
+    line-height: 1.4375em;
+    letter-spacing: 0.05625em;
+}
+
+.opener {
+    font-size: 0.9375em;
+    line-height: 1.5625em;
+    letter-spacing: 0.00625em;
+}
 
 /* 3. Structure Styles
 ======================================== */
